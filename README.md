@@ -21,7 +21,4 @@ Usable pins:
           25             P1-22
 
 
-Usage: python ledblaster.py <gpio> <time> <from> <to>
-
-(time in ms)
-(from,to = 0-100)
+usage: python ledblaster.py [gpio] [time(ms)] [from(0-100)] [to(0-100)]

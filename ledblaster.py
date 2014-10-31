@@ -7,7 +7,7 @@ from array import array
 
 # Check number of strings passed
 if len(sys.argv) != 5:
-    print("Usage: python ledblaster.py <gpio number> <step time> <dim from> <dim to>")
+    print("usage: python ledblaster.py [gpio] [time(ms)] [from(0-100)] [to(0-100)]")
     sys.exit()
 
 gpio = int(sys.argv[1])

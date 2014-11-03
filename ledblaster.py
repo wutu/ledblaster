@@ -15,7 +15,7 @@ pause_time = float(sys.argv[2])
 od = int(sys.argv[3]) * 10
 do = int(sys.argv[4]) * 10
 
-INPUT_SIZE = 1000    # Input integer size
+INPUT_SIZE = 1000   # Input integer size
 OUTPUT_SIZE = 1000    # Output integer size
 INT_TYPE = 'const unsigned char'
 TABLE_NAME = 'cie';

@@ -54,3 +54,4 @@ else:
     for i in reversed(cie1931):
         set (gpio, i)
         sleep(pause_time)
+

@@ -37,8 +37,6 @@ for i,L in enumerate(y):
     l = round(l, 3)
     cie1931.append(l)
 
-print cie1931
-
 FIFO = open('/dev/pi-blaster', 'w', buffering=0)
 
 def set(gpio, value):

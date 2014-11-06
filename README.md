@@ -22,5 +22,3 @@ Usable pins:
 
 
 Usage: ``python ledblaster.py "<gpio> <time(s)> <from(0-100)> <to(0-100)>"``
-
-For greater fluency this script uses 1000(max) steps for pi-blaster. The resulting total time in seconds is equal to ((steps*10)-1)*time.

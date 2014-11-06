@@ -11,7 +11,7 @@ if len(sys.argv) != 5:
     sys.exit()
 
 gpio = int(sys.argv[1])
-pause_time = float(sys.argv[2])
+pause_time = float(sys.argv[2]) / 10
 od = int(sys.argv[3]) * 10
 do = int(sys.argv[4]) * 10
 
@@ -54,4 +54,3 @@ else:
     for i in reversed(cie1931):
         set (gpio, i)
         sleep(pause_time)
-

@@ -1,7 +1,7 @@
 LED-blaster
 ================
 
-Driving LED with step time and cie1931.
+Driving LED with adjustable fade and cie1931 on Rpi.
 
 Requires the <a href="https://github.com/sarfata/pi-blaster">pi-blaster daemon</a>.
 
